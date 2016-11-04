@@ -1,4 +1,5 @@
 import java.awt.Font;
+import java.awt.event.*;
 
 import javax.swing.*;
 
@@ -11,7 +12,8 @@ public class DBLP {
 	JPanel right = new JPanel();
 	String query[] = {"Queries","Query1","Query2","Query3"};
 	JComboBox queryDropDown = new JComboBox(query);
-	
+	String search[] = {"Search By","Author","Publication"};
+	JComboBox searchDropDown = new JComboBox(search);
 	
 	
 	public DBLP()
@@ -21,7 +23,14 @@ public class DBLP {
 		top.add(title);
 		left.setBounds(200, 200, 300, 600);
 		queryDropDown.setFont(new Font("Calibri",Font.BOLD,30));
-		left.add(queryDropDown);S
+		left.add(queryDropDown);
+		queryDropDown.addItemListener (new ItemListener () {
+		    public void itemStateChanged(ItemEvent e) {
+		        String item = (String)queryDropDown.getSelectedItem();
+		        if(item.equals("Query1"))
+		        	System.out.println("HEllo");
+		    }
+		});
 		frame.setLayout(null);
 		frame.add(top);
 		frame.add(left);
