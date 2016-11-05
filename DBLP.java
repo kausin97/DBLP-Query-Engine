@@ -22,7 +22,11 @@ public class DBLP {
 		title.setFont(new Font("Calibri",Font.BOLD,60));
 		top.add(title);
 		left.setBounds(200, 200, 300, 600);
+		queryDropDown.setBounds(100, 20, 100, 100);
 		queryDropDown.setFont(new Font("Calibri",Font.BOLD,30));
+		searchDropDown.setBounds(100, 40, 100, 100);
+		searchDropDown.setFont(new Font("Calibri",Font.BOLD,30));
+		left.add(searchDropDown);
 		left.add(queryDropDown);
 		queryDropDown.addItemListener (new ItemListener () {
 		    public void itemStateChanged(ItemEvent e) {
