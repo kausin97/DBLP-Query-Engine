@@ -26,13 +26,14 @@ public class DBLP {
 		queryDropDown.setFont(new Font("Calibri",Font.BOLD,30));
 		searchDropDown.setBounds(100, 40, 100, 100);
 		searchDropDown.setFont(new Font("Calibri",Font.BOLD,30));
+		searchDropDown.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
 		queryDropDown.addItemListener (new ItemListener () {
 		    public void itemStateChanged(ItemEvent e) {
 		        String item = (String)queryDropDown.getSelectedItem();
 		        if(item.equals("Query1"))
-		        	System.out.println("HEllo");
+		        searchDropDown.setVisible(true);
 		    }
 		});
 		frame.setLayout(null);
