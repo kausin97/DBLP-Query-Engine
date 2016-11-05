@@ -14,6 +14,8 @@ public class DBLP {
 	JComboBox queryDropDown = new JComboBox(query);
 	String search[] = {"Search By","Author","Publication"};
 	JComboBox searchDropDown = new JComboBox(search);
+	JLabel name = new JLabel("Name/Title tages");
+	JTextField nameField = new JTextField();
 	
 	
 	public DBLP()
@@ -29,6 +31,8 @@ public class DBLP {
 		searchDropDown.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
+		left.add(name);
+		left.add(nameField);
 		queryDropDown.addItemListener (new ItemListener () {
 		    public void itemStateChanged(ItemEvent e) {
 		        String item = (String)queryDropDown.getSelectedItem();
