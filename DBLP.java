@@ -30,6 +30,7 @@ public class DBLP {
 		searchDropDown.setFont(new Font("Calibri",Font.BOLD,30));
 		searchDropDown.setVisible(false);
 		name.setVisible(false);
+		nameField.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
 		left.add(name);
