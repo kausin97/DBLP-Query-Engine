@@ -29,6 +29,7 @@ public class DBLP {
 		searchDropDown.setBounds(100, 40, 100, 100);
 		searchDropDown.setFont(new Font("Calibri",Font.BOLD,30));
 		searchDropDown.setVisible(false);
+		name.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
 		left.add(name);
