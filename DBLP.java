@@ -40,6 +40,8 @@ public class DBLP {
 		        String item = (String)queryDropDown.getSelectedItem();
 		        if(item.equals("Query1"))
 		        searchDropDown.setVisible(true);
+		        name.setVisible(true);
+				nameField.setVisible(true);
 		    }
 		});
 		frame.setLayout(null);
