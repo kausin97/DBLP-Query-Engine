@@ -15,7 +15,9 @@ public class DBLP {
 	String search[] = {"Search By","Author","Publication"};
 	JComboBox searchDropDown = new JComboBox(search);
 	JLabel name = new JLabel("Name/Title tages");
+	JLabel sinceYear = new JLabel("Since Year");
 	JTextField nameField = new JTextField();
+	JTextField sinceYearField = new JTextField();
 	
 	
 	public DBLP()
