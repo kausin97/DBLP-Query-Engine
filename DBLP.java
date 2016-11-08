@@ -20,6 +20,7 @@ public class DBLP {
 	JTextField nameField = new JTextField();
 	JTextField sinceYearField = new JTextField();
 	JTextField startYear = new JTextField();
+	JTextField endYear = new JTextField();
 	
 	
 	public DBLP()
@@ -35,6 +36,9 @@ public class DBLP {
 		searchDropDown.setVisible(false);
 		name.setVisible(false);
 		nameField.setVisible(false);
+		customYear.setVisible(false);
+		startYear.setVisible(false);
+		endYear.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
 		left.add(name);
@@ -48,6 +52,7 @@ public class DBLP {
 		        searchDropDown.setVisible(true);
 		        name.setVisible(true);
 				nameField.setVisible(true);
+				
 		    }
 		});
 		frame.setLayout(null);
