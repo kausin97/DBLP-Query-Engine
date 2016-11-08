@@ -37,8 +37,8 @@ public class DBLP {
 		left.add(queryDropDown);
 		left.add(name);
 		left.add(nameField);
-		left.add(sinceYear);
-		left.add(sinceYearField);
+//		left.add(sinceYear);
+//		left.add(sinceYearField);
 		queryDropDown.addItemListener (new ItemListener () {
 		    public void itemStateChanged(ItemEvent e) {
 		        String item = (String)queryDropDown.getSelectedItem();
