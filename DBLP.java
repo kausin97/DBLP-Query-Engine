@@ -16,8 +16,10 @@ public class DBLP {
 	JComboBox searchDropDown = new JComboBox(search);
 	JLabel name = new JLabel("Name/Title tages");
 	JLabel sinceYear = new JLabel("Since Year");
+	JLabel customYear = new JLabel("Custom Year:");
 	JTextField nameField = new JTextField();
 	JTextField sinceYearField = new JTextField();
+	JTextField startYear = new JTextField();
 	
 	
 	public DBLP()
@@ -37,8 +39,8 @@ public class DBLP {
 		left.add(queryDropDown);
 		left.add(name);
 		left.add(nameField);
-//		left.add(sinceYear);
-//		left.add(sinceYearField);
+		left.add(sinceYear);
+		left.add(sinceYearField);
 		queryDropDown.addItemListener (new ItemListener () {
 		    public void itemStateChanged(ItemEvent e) {
 		        String item = (String)queryDropDown.getSelectedItem();
@@ -52,7 +54,7 @@ public class DBLP {
 		frame.add(top);
 		frame.add(left);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//frame.setLocationRelativeTo(null);
+		frame.setLocationRelativeTo(null);
 		frame.setBounds(50,50,1800,800);
 		frame.setVisible(true);
 	}
