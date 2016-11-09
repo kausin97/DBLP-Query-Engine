@@ -59,7 +59,8 @@ public class DBLP {
 				customYear.setVisible(true);
 				startYear.setVisible(true);
 				endYear.setVisible(true);
-				
+				searchButton.setVisible(true);
+				resetButton.setVisible(true);				
 		    }
 		});
 		frame.setLayout(null);
