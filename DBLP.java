@@ -21,6 +21,8 @@ public class DBLP {
 	JTextField sinceYearField = new JTextField();
 	JTextField startYear = new JTextField();
 	JTextField endYear = new JTextField();
+	JButton searchButton = new JButton("Search");
+	JButton resetButton = new JButton("Reset");
 	
 	
 	public DBLP()
@@ -50,8 +52,11 @@ public class DBLP {
 		        String item = (String)queryDropDown.getSelectedItem();
 		        if(item.equals("Query1"))
 		        searchDropDown.setVisible(true);
-		        name.setVisible(true);
+		        name.setVisible(true); 
 				nameField.setVisible(true);
+				customYear.setVisible(true);
+				startYear.setVisible(true);
+				endYear.setVisible(true);
 				
 		    }
 		});
