@@ -64,7 +64,9 @@ public class DBLP {
 				startYear.setVisible(true);
 				endYear.setVisible(true);
 				searchButton.setVisible(true);
-				resetButton.setVisible(true);				
+				resetButton.setVisible(true);	
+				sortYear.setVisible(true);
+				sortRelevance.setVisible(true);
 		    }
 		});
 		frame.setLayout(null);
