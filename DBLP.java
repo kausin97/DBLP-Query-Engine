@@ -23,6 +23,8 @@ public class DBLP {
 	JTextField endYear = new JTextField();
 	JButton searchButton = new JButton("Search");
 	JButton resetButton = new JButton("Reset");
+	JRadioButton sortYear = new JRadioButton("Sort by Year");
+	JRadioButton sortRelevance = new JRadioButton("Sort by Relevance");
 	
 	
 	public DBLP()
