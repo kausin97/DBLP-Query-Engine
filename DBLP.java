@@ -45,6 +45,8 @@ public class DBLP {
 		endYear.setVisible(false);
 		searchButton.setVisible(false);
 		resetButton.setVisible(false);
+		sortYear.setVisible(false);
+		sortRelevance.setVisible(false);
 		left.add(searchDropDown);
 		left.add(queryDropDown);
 		left.add(name);
