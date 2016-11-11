@@ -69,11 +69,11 @@ public class DBLP {
 				sortRelevance.setVisible(true);
 		    }
 		});
-		//frame.setLayout(null);
-		//frame.add(top);
+		frame.setLayout(null);
+		frame.add(top);
 		frame.add(left);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setLocationRelativeTo(null);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//frame.setLocationRelativeTo(null);
 		frame.setBounds(50,50,1800,800);
 		frame.setVisible(true);
 	}
