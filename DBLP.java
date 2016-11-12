@@ -73,13 +73,13 @@ public class DBLP {
 		frame.add(top);
 		frame.add(left);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//frame.setLocationRelativeTo(null);
+		frame.setLocationRelativeTo(null);
 		frame.setBounds(50,50,1800,800);
 		frame.setVisible(true);
 	}
 	
 	public static void main(String[] args)
 	{
-		new DBLP();
+		//new DBLP();
 	}
 }
