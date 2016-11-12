@@ -74,7 +74,7 @@ public class DBLP {
 		frame.add(left);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
-		frame.setBounds(50,50,1800,800);
+		//frame.setBounds(50,50,1800,800);
 		//frame.setVisible(true);
 	}
 	
