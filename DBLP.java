@@ -75,11 +75,11 @@ public class DBLP {
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
 		frame.setBounds(50,50,1800,800);
-		frame.setVisible(true);
+		//frame.setVisible(true);
 	}
 	
 	public static void main(String[] args)
 	{
-		//new DBLP();
+		new DBLP();
 	}
 }
