@@ -50,13 +50,13 @@ public class Publication {
 	{
 		number=x;
 	}
-	public void setEE(String x)
-	{
-		ee=x;
-	}
-	public void setURL(String x)
-	{
-		url=x;
-	}
+//	public void setEE(String x)
+//	{
+//		ee=x;
+//	}
+//	public void setURL(String x)
+//	{
+//		url=x;
+//	}
 	
 }
