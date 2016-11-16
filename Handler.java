@@ -65,7 +65,7 @@ class Handler extends DefaultHandler {
       if (qName.equalsIgnoreCase("article")) {
          //System.out.println("End Element :" + qName);
          array.add(temp);
-         System.out.println(temp);
+         //System.out.println(temp);
       }
    }
 
