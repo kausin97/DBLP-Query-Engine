@@ -54,9 +54,9 @@ public class Publication {
 //	{
 //		ee=x;
 //	}
-//	public void setURL(String x)
-//	{
-//		url=x;
-//	}
+	public void setURL(String x)
+	{
+		url=x;
+	}
 	
 }
