@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class Publication {
 	
 	String key = new String();
@@ -50,10 +48,10 @@ public class Publication {
 	{
 		number=x;
 	}
-//	public void setEE(String x)
-//	{
-//		ee=x;
-//	}
+	public void setEE(String x)
+	{
+		ee=x;
+	}
 	public void setURL(String x)
 	{
 		url=x;
