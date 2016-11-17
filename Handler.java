@@ -63,9 +63,9 @@ class Handler extends DefaultHandler {
    public void endElement(String uri, 
       String localName, String qName) throws SAXException {
       if (qName.equalsIgnoreCase("article")) {
-         //System.out.println("End Element :" + qName);
+         System.out.println("End Element :" + qName);
          array.add(temp);
-         //System.out.println(temp);
+         System.out.println(temp);
       }
    }
 
