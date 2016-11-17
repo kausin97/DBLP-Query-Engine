@@ -8,7 +8,7 @@ public class Driver {
          SAXParserFactory factory = SAXParserFactory.newInstance();
          SAXParser saxParser = factory.newSAXParser();
          Handler userhandler = new Handler();
-         saxParser.parse("test.xml", userhandler);
+         saxParser.parse("dblp.xml", userhandler);
       } catch (Exception e) {
          e.printStackTrace();
       }
